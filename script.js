@@ -50,16 +50,3 @@ else {
 }
 
 console.log(personalMovieDB);
-
-if (personalMovieDB.count < 10) {
-    console.log ("Watched quite a bit of films");
-}
-else if (personalMovieDB >= 10 && personalMovieDB <= 30) {
-    console.log ("You are a classic spectator");
-
-}
-else {
-    console.log ("An error has occurred");
-}
-
-console.log(personalMovieDB);
